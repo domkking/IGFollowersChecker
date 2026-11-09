@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { UploadCloud, FileJson, CheckCircle2, AlertCircle, Sparkles } from 'lucide-react';
+import { FileJson, CheckCircle2, AlertCircle, Sparkles } from 'lucide-react';
 
 interface Props {
   onFilesReady: (followersFile: File, followingFile: File) => void;
